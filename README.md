@@ -2,7 +2,7 @@
 
 A definição de uma cron job consiste em uma linha com 6 valores separados por espaço, assim:
     
-    [minuto] [hora] [dia] [mes] [dia-da-semana] [linha-de-comando]
+    [segundo] [minuto] [hora] [dia-do-mes] [mes] [dia-da-semana] [ano]
 
 
 <br>
@@ -33,3 +33,17 @@ A definição de uma cron job consiste em uma linha com 6 valores separados por 
 ### A linha-de-comando
 
 É um comando que você usaria normalmente para iniciar um script ou chamar um wget. 
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+##### Referências
+
+<https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontriggers.html>

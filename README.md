@@ -7,34 +7,14 @@ A definição de uma cron job consiste em uma linha com 6 valores separados por 
 
 <br>
 
-##### Cron Job que rode todo dia as 06:00am:
+##### Cron Job que rode a cada 5 minutos:
 
-    0 6 * * * [linha-de-comando]
-
-
-##### Cron Job que rode as 12:30am de segunda e sexta:
-
-    30 12 * * 1,5 [linha-de-comando]    
+    0 0/5 * * * ?
 
 
-##### Cron Job que rode a meia-noite de três em três dias:
+##### Cron que dispara às 10:30, 11:30, 12:30 e 13:30, todas as quartas e sextas-feiras:
 
-    0 0 */3 * * [linha-de-comando]    
-
-
-##### Cron Job que rode todo dia a cada duas horas:
-
-    0 */2 * * * [linha-de-comando]        
-
-
-<br>
-
-
-### A linha-de-comando
-
-É um comando que você usaria normalmente para iniciar um script ou chamar um wget. 
-
-
+    0 30 10-13 ? * WED,FRI    
 
 
 

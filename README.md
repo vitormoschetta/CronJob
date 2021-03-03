@@ -45,4 +45,5 @@ A definição de uma cron job consiste em uma linha com 6 valores separados por 
 
 ##### Referências
 
+<https://codigosimples.net/2014/12/15/criando-tarefas-agendadas-com-cron-jobs/>
 <https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontriggers.html>
